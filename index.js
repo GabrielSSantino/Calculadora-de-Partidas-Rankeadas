@@ -25,6 +25,7 @@ function score() {
 //function winMatch(probability), uma função de probabilidade de caso ganhar ou perder
 
 function winMatch(probability) {
+    score();
     console.log(`Você tem no total de partidas ganhas ${victory} e esta no nível ${ranker}`)
     console.log("A partida foi encontrada")
 
