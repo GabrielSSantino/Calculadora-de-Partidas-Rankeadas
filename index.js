@@ -41,4 +41,8 @@ function winMatch(probability) {
 }
 
 score();
+
+for (let i = 0; i < 3; i++) {
+    winMatch(0.6);
+}
 winMatch(0.6);
